@@ -1,0 +1,33 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  // editor
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [
+    95,
+    120
+  ],
+  // sfdx
+  "salesforcedx-vscode-apex.enable-sobject-refresh-on-startup": true,
+  "salesforcedx-vscode-apex-debugger.connectionTimeoutMs": 20000,
+  "salesforcedx-vscode-apex.enable-semantic-errors": true,
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  "salesforcedx-vscode-core.experimental.deployRetrieve": true,
+  "salesforcedx-vscode-core.detectConflictsAtSync": true,
+  "salesforcedx-vscode-core.show-cli-success-msg": false,
+  // visualforce
+  "visualforce.autoClosingTags": true,
+  "visualforce.format.enable": true,
+  "files.associations": {
+    "*.xml": "xml"
+  },
+  
+}
